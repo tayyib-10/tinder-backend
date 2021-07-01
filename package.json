@@ -2,11 +2,10 @@
   "name": "tinder-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "functions/server.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js",
-    "build": "netlify-lambda build express"
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
