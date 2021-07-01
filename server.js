@@ -9,7 +9,7 @@ import Cards from "./dbCards.js"
 const app = express();
 const PORT = process.env.PORT || 8001;
 const connection_url =
-  "mongodb+srv://admin:ced9KJNps7jjiWma@cluster0.rxjln.mongodb.net/tinderDb?retryWrites=true&w=majority";
+  "mongodb+srv://admin:<your db password(without )>@cluster0.rxjln.mongodb.net/tinderDb?retryWrites=true&w=majority";
 dotenv.config()
 // Middlewares
 app.use(express.json())
